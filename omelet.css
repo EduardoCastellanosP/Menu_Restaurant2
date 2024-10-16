@@ -1,0 +1,220 @@
+* {
+   
+    background-color: hsl(30, 54%, 90%);
+    box-sizing: border-box;
+    
+    
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    
+     
+}
+
+.contenedor {
+    display: grid;
+    background-color: hsl(0, 0%, 100%);
+    grid-template-columns:1fr;
+    justify-content: center;
+    border-radius: 10px;
+    border-bottom:2px solid  hsl(30, 18%, 87%);
+    min-height: 1440px;
+    margin: 10%;
+   
+    
+    
+}
+.omelet {
+    display: grid;
+    grid-template-rows: 320px;
+    margin: 6% ;
+    justify-content: center;
+    background-color: transparent;
+}
+.fotomelet {
+    max-width: 100%; 
+    border-radius: 15px;
+    border: 2px solid hsl(30, 18%, 87%) ;
+}
+h1 {
+    background-color: transparent;
+
+}
+
+ p {
+    background-color: transparent;
+}
+.textos {
+    display: grid;
+    background-color: transparent;
+    grid-template-rows: 90px;
+    text-align: start;
+    
+}
+.maintittle{
+    
+    font-size: 35px;
+    font-family: "Young Serif", serif;
+    
+    
+}
+.parrafo{
+    display: grid;
+    text-align: justify;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+.contenedorlistas{
+    background-color: transparent;
+    padding-left: 80px;
+    
+}
+.preparationtime {
+    display: grid;
+    position: relative;
+    padding-left: 50px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 33%, 36%);
+}
+strong {
+    background-color: transparent; /* Elimina el color de fondo */
+}
+
+.lista1 , .lista2 , .lista3{
+    font-family:'Outfit', sans-serif  ;
+    background-color: transparent;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.ingredients{
+    background-color: transparent;
+    border-bottom: 0.1px solid rgb(223, 220, 220);
+    
+    
+}
+.tittleingredients{
+    font-size: 30px;
+    color: hsl(10, 26%, 33%);
+}
+.contenedorlistas2 {
+    background-color: transparent;
+    padding-left: 23px;
+}
+
+
+.lista1-1 , .lista2-1 , .lista3-1, .lista4-1, .lista5-1{
+    background-color: transparent;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif  ;
+    
+}
+
+.instructions {
+    background-color: transparent;
+    border-bottom: 0.1px solid rgb(223, 220, 220);
+   
+    
+}
+
+.tittleinstructions {
+    background-color: transparent;
+    font-size: 30px;
+    color: hsl(10, 26%, 33%);
+}
+.contenedorlista3{
+    list-style-type: decimal;
+    list-style-position: outside;
+    background-color: transparent;
+    padding-left: 23px;
+}
+.lista1-2, .lista2-2, .lista3-2, .lista4-2, .lista5-2, .lista6-2 {
+    background-color: transparent;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family:'Outfit', sans-serif  ;
+    padding-left: 17px;
+}
+
+.nutrition{
+    background-color: transparent;
+}
+.tittlenutrition{
+   
+    font-size: 30px;
+    color: hsl(10, 26%, 33%);
+
+}
+.parrafonutrition {
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family:'Outfit', sans-serif  ;
+   
+}
+.contenedorlista4 {
+    width: 100%; 
+    background-color: transparent ;
+    font-family:'Outfit', sans-serif  ;
+    
+    
+    
+}
+
+.contenedorlista4 td {
+    padding: 5px; 
+    text-align: left; 
+    font-size: 18px;
+    background-color: white;
+    border-bottom: 0.1px solid rgb(223, 220, 220);
+    
+    
+
+}
+
+.valor{
+    background-color: transparent;
+    color: hsl(10, 26%, 33%);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .maintittle {
+        font-size: 28px; /* Tamaño del título */
+    }
+
+    .parrafo {
+        font-size: 16px; /* Tamaño del párrafo */
+    }
+}
+
+@media (min-width: 376px) {
+    main {
+        max-width: 1440px; /* Limita el ancho para pantallas más grandes */
+    }
+
+    .contenedor {
+        grid-template-columns: 800px; /* Ajuste para escritorio */
+        margin: 10% 30%; /* Margen para escritorio */
+    }
+
+    .maintittle {
+        font-size: 35px; /* Tamaño del título en escritorio */
+    }
+
+    .parrafo {
+        font-size: 18px; /* Tamaño del párrafo en escritorio */
+    }
+}
